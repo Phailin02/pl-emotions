@@ -18,31 +18,38 @@ const Flower = () => {
   const handleClick = (emo) => {
     setEmotion(emo);
     switch (emo) {
-        case "happy":
-            setMessage(`You are feeling ${emo}! `);
-            break;
-        case "cry":
-            setMessage(`You are feeling ${emo}! Oh! don't cry sis`);
-            break;
-        case "cool":
-            setMessage(`You are feeling ${emo}!`);
-            break;
-        case "angry":
-            setMessage(`You are feeling ${emo}! Sometimes you might want to drink coffee`);
-            break;
-        case "love":
-            setMessage(`You are feeling ${emo}!`);
-            break;
-        case "lonely":
-          setMessage(`You are feeling ${emo}! You can chat with me on <br/> <br/><a href="https://www.instagram.com/direct/t/108288407234391/">Instagram</a> <p>Or</p> <a href="https://www.messenger.com/t/100006772776288" target="_blank" rel="noopener noreferrer">Messenger</a> <p>Or</p> <a href="https://whatsapp.com/send?phone=+856 20 54867757">WhatsApp</a>
-          `);
-          break;
-        default:
-            setMessage("Unknown emotion");
-            break;
-    }
-};
+      case "happy":
+        setMessage(`You are feeling ${emo}! `);
+        break;
+      case "cry":
+        setMessage(`You are feeling ${emo}! Oh! don't cry sis`);
+        break;
+      case "cool":
+        setMessage(`You are feeling ${emo}!`);
+        break;
+      case "angry":
+        setMessage(
+          `You are feeling ${emo}! Sometimes you might want to drink coffee`
+        );
+        break;
+      case "love":
+        setMessage(`You are feeling ${emo}!`);
+        break;
+      case "lonely":
+        setMessage(`You are feeling ${emo}! You can chat with me on <br/> <br/><a href="https://www.instagram.com/direct/t/108288407234391/">Instagram</a> <p>Or</p> 
+        <a href="https://www.messenger.com/t/100006772776288" target="_blank" rel="noopener noreferrer">Messenger</a> <p>Or</p> 
+          <a aria-label="Chat on WhatsApp" href="https://wa.me/+8562054867757">
+        WhatsApp
+        </a>
+                  <a />
 
+          `);
+        break;
+      default:
+        setMessage("Unknown emotion");
+        break;
+    }
+  };
 
   return (
     <div className="flower-container">
