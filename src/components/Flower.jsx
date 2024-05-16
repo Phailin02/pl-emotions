@@ -34,7 +34,7 @@ const Flower = () => {
             setMessage(`You are feeling ${emo}!`);
             break;
         case "lonely":
-          setMessage(`You are feeling ${emo}! You can chat with me on <br/> <br/><a href="https://www.instagram.com/direct/t/108288407234391/">Instagram</a> <p>Or</p> <a href="https://www.messenger.com/t/100006772776288" target="_blank" rel="noopener noreferrer">Messenger</a> <p>Or</p> <a href="https://web.whatsapp.com/send?phone=+856 20 54867757">WhatsApp</a>
+          setMessage(`You are feeling ${emo}! You can chat with me on <br/> <br/><a href="https://www.instagram.com/direct/t/108288407234391/">Instagram</a> <p>Or</p> <a href="https://www.messenger.com/t/100006772776288" target="_blank" rel="noopener noreferrer">Messenger</a> <p>Or</p> <a href="https://whatsapp.com/send?phone=+856 20 54867757">WhatsApp</a>
           `);
           break;
         default:
